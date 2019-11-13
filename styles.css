@@ -1,9 +1,26 @@
-ul {
+.header {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display:inline;
+    text-decoration: none;
   }
+.footer{
+    position:absolute;
+    bottom:0;
+    display:inline;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    width:100%;
+    transform:translateX(-10%);
+
+}
+
+ul{
+    list-style-type: none;
+}
+
 li {
     float:left;
 }
@@ -14,6 +31,7 @@ li a,#signin {
     text-decoration: none;
     font-family: arial;
     font-size:14px;
+    
 }
 
 #signin{
@@ -22,12 +40,8 @@ li a,#signin {
     color:white;
 }
 
-#right {
+.right {
     float:right;
-}
-
-#left {
-    float:left;
 }
 
 .centered {
